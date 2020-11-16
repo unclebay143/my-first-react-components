@@ -4,6 +4,7 @@ class Form extends Component {
   render() {
     return (
       <div>
+      <h4>Form Component</h4>
         <form className="form-group">
           <input type="text" className="form-control mb-3" placeholder="Name"/>
           <input type="text" className="form-control mb-3" placeholder="Email"/>
