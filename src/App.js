@@ -6,6 +6,7 @@ import MapDetails from './components/MapDetails'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Greet from './components/Greet'
 import Timer from './components/Timer'
+import Todo from './components/Todo'
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
         <Header owner="Contact Manager" />
         <Greet />
         <Timer />
+        <Todo />
         <div className="container mt-5">
           <div className="row">
             <div className="col-lg-6 col-sm-12">
