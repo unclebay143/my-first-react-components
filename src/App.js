@@ -5,6 +5,7 @@ import Form from './components/Form'
 import MapDetails from './components/MapDetails'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Greet from './components/Greet'
+import Timer from './components/Timer'
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
       <div className="App">
         <Header owner="Contact Manager" />
         <Greet />
+        <Timer />
         <div className="container mt-5">
           <div className="row">
             <div className="col-lg-6 col-sm-12">
